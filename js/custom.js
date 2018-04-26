@@ -294,8 +294,7 @@
     /*** =====================================
     *   Fixed Menu
     * =====================================*/
-    $(document).on('click','.tobar-fixed-check label',function(){
-        $('.main-menu-area').toggleClass('main-menu-fixed');
+    $(document).ready(function(){
         if($('.main-menu-fixed').length){
             var win = $(document);
             var menuTerget = $('.main-menu-fixed');
@@ -308,10 +307,12 @@
              }
             });
         }
+        window.onload = menufijo;
         if(!$('.main-menu-fixed').length){
             $('.main-menu-area').removeClass('main-menu-fix-active');
         }
-    });
+    }());
+
     $('.backtop-top-check label').on('click',function(){
         $('#toTop').toggleClass('toTop-hide');
     });

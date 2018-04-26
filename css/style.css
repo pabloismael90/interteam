@@ -1,3 +1,7 @@
+/*nuevo*/
+
+
+
 /*------------------------------------------------------------------
 	Template Name:	The Fund
     Template URI:
@@ -773,7 +777,7 @@ hr {
 }
 
 .top-bar .social-icons {
-  justify-content: flex-end;
+  justify-content: flex-start;
   padding-bottom: 10px;
 }
 
@@ -831,7 +835,7 @@ hr {
 }
 
 .main-menu-area {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 1);
   box-shadow: 0 8px 7px rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid #cccccc;
 }
@@ -2413,7 +2417,7 @@ hr {
 }
 
 .widget:not(.widget--footer) {
-  margin-bottom: 94px;
+  margin-bottom: 20px;
 }
 
 .widget:not(.widget--footer):last-child {
