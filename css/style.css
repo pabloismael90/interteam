@@ -30,8 +30,8 @@
     width: 40px;
     line-height: 40px;
 }
-.profile-image{
-      padding: 0px 20px;
+.profile-image img{
+      padding: 10px 20px;
 }
 .profile-name {
     padding: 20px 0px;
@@ -71,7 +71,13 @@ ul.social-btn li a {
 
 
 }
+.btn-small{
+  min-width: auto !important;
+}
 
+.btn:hover .fa{
+  color: white;
+}
 /*------------------------------------------------------------------
 	Template Name:	The Fund
     Template URI:
