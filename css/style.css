@@ -1,7 +1,5 @@
 /*nuevo*/
-.prueba{
-  height: 1000px;
-}
+
 .sidebar-profile {
     overflow-x: hidden;
     background-color: #fff;
@@ -9,6 +7,28 @@
 }
 .profile{
   padding:10px 0px;
+}
+
+.profile.contact-address-item{
+  margin-bottom: 10px;
+}
+.profile .contact-address{
+  background: transparent;
+  padding-left: 10px;
+}
+.profile .contact-address .border-color{
+  border-color: #0aaaa0;
+}
+.profile .contact-address .text-content{
+  color: #606060;
+}
+.profile .contact-address-item .text-content{
+  padding-left: 55px;
+}
+.profile .contact-address-item .icon-wrap{
+      height: 40px;
+    width: 40px;
+    line-height: 40px;
 }
 .profile-image{
       padding: 0px 20px;
@@ -45,7 +65,12 @@ ul.social-btn li a {
     line-height: 35px;
     text-align: center;
 }
+.special-btn{
+  position: relative;
+  float: right;
 
+
+}
 
 /*------------------------------------------------------------------
 	Template Name:	The Fund
