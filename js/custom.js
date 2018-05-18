@@ -128,6 +128,25 @@
         }]
     });
     /*** =====================================
+    * Noticia
+    * ==================================== ***/
+    $(".notice-carousel").slick({
+        dots: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows : false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: false
+            }
+        }]
+    });
+    /*** =====================================
     * Client Carousel
     * ==================================== ***/
     $(".client-carusel").slick({
@@ -150,6 +169,17 @@
     * About us carousel
     * ==================================== ***/
     $(".about-us-carousel").slick({
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows : false,
+    });
+    /*** =====================================
+    * publicacion carousel
+    * ==================================== ***/
+    $(".publicacion-carousel").slick({
         dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
