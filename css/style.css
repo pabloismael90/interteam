@@ -1,4 +1,10 @@
 /*nuevo*/
+.btn-small-special{
+  padding: 5px 10px !important;
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+    border-radius: 3px !important;
+}
 .simulacion{
   position: relative;
   top: -45px;
