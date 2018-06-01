@@ -4,6 +4,17 @@
     font-size: 12px !important;
     line-height: 1.5 !important;
     border-radius: 3px !important;
+    min-width: 40px !important;
+}
+.btn-danger {
+    color: #fff !important;
+    background-color: #d9534f !important;
+    border-color: #d43f3a !important;
+}
+.btn-success {
+    color: #fff !important;
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
 }
 .simulacion{
   position: relative;
